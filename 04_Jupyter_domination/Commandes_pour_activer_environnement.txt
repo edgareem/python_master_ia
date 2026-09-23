@@ -1,0 +1,8 @@
+conda activate nom_env
+conda install ipykernel
+python -m ipykernel install --user --name nom_env --display-name "Python (nom_env)"
+
+conda create -n tensorflow python=3.12
+conda activate tensorflow
+conda install ipykernel
+python -m ipykernel install --user --name tensorflow --display-name "Python (tensorflow)"
